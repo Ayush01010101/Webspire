@@ -85,7 +85,7 @@ function Header() {
               </div>
             </div>
             <div className="trusted flex w-full justify-center items-center md:items-end  h-32 ">
-              <h1 className={`text-white ${montserratthin.className} tracking-wider mb-14 md:mb-0 `}>
+              <h1 className={`text-white ${montserratthin.className} tracking-wider mb-14 md:mb-0 md:block hidden`}>
               Trusted and valued by 1000+ customers 
               </h1>
             </div>
