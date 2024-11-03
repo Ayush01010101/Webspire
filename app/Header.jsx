@@ -35,17 +35,18 @@ function Header() {
               <div className="flex flex-col md:flex-row items-center justify-between">
                 <div className="w-full md:w-1/2 text-white mb-8 md:mb-0 space-y-5 md:space-y-7">
                   <h1
-                    className={`${montserrat.className} md:text-6xl text-6xl`}
+                    className={`${montserrat.className}  md:text-6xl text-wrap text-5xl overflow-hidden `}
                   >
                      Empower  Businesses to{" "}
                     <span  className={`text-green-700    block`}>
                       {/* Style will be inherited from the parent element */}
                       <Typewriter
                         words={["Grow", "Succeed", "Shine", "Stand Out", "Connect"]}
-                        loop={5}
+                        loop={0}
                         cursor
                         cursorStyle="|"
                         typeSpeed={120}
+
                         deleteSpeed={150}
                         delaySpeed={2000}
                         cursorColor="white"
