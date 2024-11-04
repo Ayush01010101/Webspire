@@ -6,7 +6,7 @@ import Earth from "../public/assets/earth.png";
 import { Typewriter } from "react-simple-typewriter";
 import {Montserrat} from 'next/font/google'
 import Laptop from '../public/assets/laptop.png'
-import { redirect } from "next/dist/server/api-utils";
+import { redirect } from "next/navigation";
 import { headingref } from "./Ref";
 const montserrat=Montserrat({
     subsets:['latin'],
@@ -22,7 +22,8 @@ const montserratthin=Montserrat({
 
 function Header() {
   const handleChat = () => {
-    window.location.href = "https://wa.me/917798483419";
+    // window.location.href = "https://wa.me/917798483419";
+    redirect('/test')
   };
 
   return (
