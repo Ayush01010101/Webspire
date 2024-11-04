@@ -22,8 +22,8 @@ const montserratthin=Montserrat({
 
 function Header() {
   const handleChat = () => {
-    // window.location.href = "https://wa.me/917798483419";
-    redirect('/test')
+    window.location.href = "https://wa.me/917798483419";
+    
   };
 
   return (
