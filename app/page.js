@@ -1,6 +1,7 @@
 'use client'
 import Image from "next/image"
 import Header from "./Header";
+import Info from "./Info";
 import Service from "./Service";
 import Footer from "./Footer";
 import Main from "./Main";
@@ -22,6 +23,7 @@ export default function Home() {
         <Whyneed/>
         <Contact/>
         <Footer/>
+        <Info/>
         </div>
 
       </>

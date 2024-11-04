@@ -7,6 +7,7 @@ import { Typewriter } from "react-simple-typewriter";
 import {Montserrat} from 'next/font/google'
 import Laptop from '../public/assets/laptop.png'
 import { redirect } from "next/dist/server/api-utils";
+import { headingref } from "./Ref";
 const montserrat=Montserrat({
     subsets:['latin'],
     weight:"700"
@@ -26,7 +27,7 @@ function Header() {
 
   return (
     <>
-      <div className="div h-screen w-screen ">
+      <div className="div h-screen w-screen" ref={headingref}>
         <div className="relative w-full h-full">
           <Image src={Orange} alt="Orange background" fill priority />
           <div className="absolute w-full">
