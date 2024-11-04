@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Favicon from '../public/assets/favicon.png'
+import Favicon from '../public/assets/favicon.jpg'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

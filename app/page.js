@@ -14,7 +14,10 @@ export default function Home() {
        
         <Header />
         <Service/>
+        <div className="div md:block hidden">
+
         <Main/>
+        </div>
         <Howitworks/>
         <Whyneed/>
         <Contact/>
